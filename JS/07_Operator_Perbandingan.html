@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator Perbandingan</title>
+</head>
+<body>
+    <script>
+        // Sama Dengan
+        document.writeln ("<p>" + "Sama Dengan" + "</p>")
+        let samaDengan = 5 == "5";
+        document.writeln ("<p>" + "5 == String 5 = " + samaDengan + "</p>");
+
+        samaDengan = 5 == 4;
+        document.writeln ("<p>" + "5 == 4 = " + samaDengan + "</p>");
+
+        // Sama Dengan Tipe Data
+        document.writeln ("<p>" + "Sama Dengan dan Sama Tipe Data" + "</p>")
+        samaDenganTipeData = 5 === "5";
+        document.writeln ("<p>" + "5 === String 5 = " + samaDenganTipeData + "</p>");
+
+        samaDenganTipeData = 5 === 5;
+        document.writeln ("<p>" + "5 === 5 = " + samaDenganTipeData + "</p>");
+
+        // Lebih Dari
+        document.writeln ("<p>" + "Lebih Dari" + "</p>")
+        lebihDari = 5 > 10;
+        document.writeln ("<p>" + "5 > 10 = " + lebihDari + "</p>");
+
+        lebihDari = 10 > 5;
+        document.writeln ("<p>" + "10 > 5 = " + lebihDari + "</p>");
+
+        lebihDari = 10 > 10;
+        document.writeln ("<p>" + "10 > 10 = " + lebihDari + "</p>");
+
+        // Kurang Dari
+        document.writeln ("<p>" + "Kurang Dari" + "</p>")
+        kurangDari = 5 < 10;
+        document.writeln ("<p>" + "5 < 10 = " + kurangDari + "</p>");
+
+        kurangDari = 10 < 5;
+        document.writeln ("<p>" + "10 < 5 = " + kurangDari + "</p>");
+
+        kurangDari = 5 < 5;
+        document.writeln ("<p>" + "5 < 5 = " + kurangDari + "</p>");
+
+        // Lebih Dari Atau Sama Dengan
+        document.writeln ("<p>" + "Lebih Dari atau Sama Dengan" + "</p>")
+        lebihDariAtauSamaDengan = 10 >= 5;
+        document.writeln ("<p>" + "10 >= 5 = " + lebihDariAtauSamaDengan + "</p>");
+
+        lebihDariAtauSamaDengan = 10 >= 10;
+        document.writeln ("<p>" + "10 >= 10 = " + lebihDariAtauSamaDengan + "</p>");
+
+        lebihDariAtauSamaDengan = 10 >= 20;
+        document.writeln ("<p>" + "10 >= 20 = " + lebihDariAtauSamaDengan + "</p>");
+
+        //Kurang Dari Atau Sama Dengan
+        document.writeln ("<p>" + "Kurang Dari atau Sama Dengan" + "</p>")
+        kurangDariAtauSamaDengan = 25 <= 25;
+        document.writeln ("<p>" + "25 <= 25 = " + kurangDariAtauSamaDengan + "</p>");
+
+        kurangDariAtauSamaDengan = 25 <= 30
+        document.writeln ("<p>" + "25 <= 30 = " + kurangDariAtauSamaDengan + "</p>");
+
+        kurangDariAtauSamaDengan = 25 <= 10;
+        document.writeln ("<p>" + "25 <= 10 = " + kurangDariAtauSamaDengan + "</p>");
+
+        // Tidak Sama Dengan
+        document.writeln ("<p>" + "Tidak Sama Dengan" + "</p>")
+        tidakSamaDengan = 10 != 10;
+        document.writeln ("<p>" + "10 != 10 = " + tidakSamaDengan + "</p>");
+
+        tidakSamaDengan = 10 != 15;
+        document.writeln ("<p>" + "10 != 15 = " + tidakSamaDengan + "</p>");
+
+        // Tidak Sama Dan Tidak sama Tipe Data
+        document.writeln ("<p>" + "Tidak Sama Dan Tidak Sama Tipe Data" + "</p>")
+        tidakSamaDenganTipeData = 10 !== "10";
+        document.writeln ("<p>" + "10 !== String 10 = " + tidakSamaDenganTipeData + "</p>");
+
+        tidakSamaDenganTipeData = 10 !== 10;
+        document.writeln ("<p>" + "10 !== 10 = " + tidakSamaDenganTipeData + "</p>");
+    </script>
+</body>
+</html>
